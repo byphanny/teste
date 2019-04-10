@@ -1,5 +1,8 @@
 USE [DS_TRAINING]
 GO
+
+-- alteração da procedure para teste de commit
+
 /****** Object:  StoredProcedure [dbo].[SP_WRK_CLIENTES]    Script Date: 4/10/2019 12:02:47 PM ******/
 SET ANSI_NULLS ON
 GO
@@ -12,7 +15,7 @@ GO
 -- Description:	CRIA TABELA WRK_CLIENTES
 -- =============================================
 
-ALTER PROCEDURE [dbo].[SP_WRK_CLIENTES]
+create PROCEDURE [dbo].[SP_WRK_CLIENTES]
 
 AS
 BEGIN
