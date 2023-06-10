@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://gitlab-ci-token:3W8LnvLsUV8PDaMibEmR@gitlab.famtechvn.net/game/dragon-kart/web/landing-comingsoon.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
